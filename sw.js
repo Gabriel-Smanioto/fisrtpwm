@@ -1,6 +1,6 @@
 const CACHE_NAME = 'pwa-task-list-v1';
 const urlsToCache = [
-    '/firstpwm/',
+    '/fisrtpwm/',
     '/fisrtpwm/index.html',
     '/fisrtpwm/style.css',
     '/fisrtpwm/manifest.json',
@@ -25,5 +25,6 @@ self.addEventListener('fetch', event => {
             })
     );
 });
+
 
 
